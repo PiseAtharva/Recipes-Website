@@ -190,6 +190,7 @@ ul {
   margin: 3rem auto;
 }
 .form-label {
+  font-weight: bold;
   display: block;
   font-size: var(--smallText);
   margin-bottom: 0.5rem;
@@ -599,6 +600,30 @@ About Page
 }
 /*
 =============== 
-Recipes
+Contact Page
+===============
+*/
+
+.contact-form{
+  width: 100%;
+  margin: 0;
+}
+
+.contact-container{
+  display: grid;
+  gap: 2rem 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-container{
+    grid-template-columns: 1fr 450px;
+    align-items: center;
+  }
+}
+
+/*
+=============== 
+Contact Page
 ===============
 */
